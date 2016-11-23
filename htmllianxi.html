@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>8.19下午课堂练习</title>
+</head>
+<body>
+	<iframe src="8.19课堂.html" frameborder="0" width="100%" scrolling="no" height="500"></iframe>
+	<form method="post" action="save.php">
+		<label>联系我们</label>
+		<textarea cols="50" rows="10">请输入内容...</textarea>
+	</form><br/><br/><br/>
+	<form>
+		<label for="male">男</label>
+		<input type="radio" name="gender" id="male"/>
+		<br/>
+		<label for="female">女</label>
+		<input type="radio" name="gender" id="female"/>
+		<br/>
+		<label for="email">输入你的网址</label>
+		<input type="email" id="email" placeholder="jsjsjsjsj">
+	</form><br/><br/>
+	<form>
+		姓名：<input type="text" name="myName"><br/><br/>
+		密码：<input type="password" name="pass">
+     </form><br/>
+     <form method="post" action="save.php">
+     	<label for="myName">姓名</label>
+     	<input type="text" value="" name="myName"/>
+     	<input type="submit" value="提交" name="submitBtn" />
+     </form><br/>
+     <form method="post" action="save.php">
+        <label for="myName">姓名</label>
+     	<input type="text" value="" name="myName"/>
+     	<input type="reset" value="重置" name="resetBtn"/>
+     </form>
+    </body> 
